@@ -1,7 +1,6 @@
 #include<stdio.h>
 /**
-* main - This is where the code is initialised 
-*
+* main - This is where the code is initialised
 * Return: It will return the value 0 which will print out the sizes
 */
 int main(void)
@@ -13,4 +12,3 @@ int main(void)
 	printf("Size of a float: %d byte(s)\n", sizeof(float));
 	return (0);
 }
-
