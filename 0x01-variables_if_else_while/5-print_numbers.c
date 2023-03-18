@@ -3,17 +3,19 @@
 #include <stdio.h>
 
 /**
- * main - This is where the code is first executed
- * Return - Returns 0 when code is successfully executed
+ * main - Entry point
+ * Write a program that prints all single digit numbers of base 10
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
 	int n;
 
-	for (n = 0; n < 10; n++)
+	for(n = 0; n < 10; n++)
 		printf("%d", n);
-		printf("\n");
-		return (0);
+		
+	printf("\n");
+	return (0);
 
 }
