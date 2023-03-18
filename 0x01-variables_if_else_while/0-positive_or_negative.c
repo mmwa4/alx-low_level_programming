@@ -2,26 +2,23 @@
 #include <time.h>
 #include <stdio.h>
 
-/* more headers goes there */
-/* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ * This program will assign a random number to the variable n.
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 	int n;
 
-	srand(time(0);
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
-	{
-	printf("%d is a positive number\n", n);
-	}
+		printf("%i is a positive number\n", n);
 	else if (n == 0)
-	{
-	printf("%d the number is neither positive or negative\n", n);
-	}
+		printf("%i the number is neither positive or negative\n", n);
 	else
-	{
-	printf("% is negative\n", n);
-	}
-	/* your code goes there */
+		printf("%i is negative\n", n);
 	return (0);
 }
