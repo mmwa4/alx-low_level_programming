@@ -3,9 +3,11 @@
 #include <stdlib.h>
 
 /**
- *main - This is where the script is executed
- *Return - 0 This is returned upon successful completion of script
+ * main - Entry point
+ * Write a program that prints the alphabet in lowercase, and then in uppercase
+ * Return: Always 0 (Success)
  */
+
 
 int main(void)
 
