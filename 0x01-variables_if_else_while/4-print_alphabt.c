@@ -3,8 +3,9 @@
 #include <stdlib.h>
 
 /**
- * main - This where the script is executed
- * return - Returns success when code is successfully executed
+ * main - Entry point
+ * Write a program that prints the alphabet in lowercase.
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -21,6 +22,7 @@ int main(void)
 	if (l != e && l != q)
 	{
 		putchar(l);
+	}
 	}
 	putchar('\n');
 	return (0);
